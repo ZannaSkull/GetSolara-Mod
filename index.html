@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solara Bootstrapper Mod</title>
-    <link href="https://fonts.cdnfonts.com/css/comfortaa" rel="stylesheet"> <!-- Include Comfortaa font -->
+    <link href="https://fonts.cdnfonts.com/css/comfortaa" rel="stylesheet">
     <style>
         body {
-            font-family: 'Comfortaa', sans-serif; /* Use Comfortaa font */
-            background-image: url('https://images.pexels.com/photos/19161533/pexels-photo-19161533/free-photo-of-a-lake-in-the-mountains-with-snow-on-it.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Background image */
-            background-size: cover; /* Cover the entire viewport */
-            background-position: center; /* Center the background image */
+            font-family: 'Comfortaa', sans-serif;
+            background-image: url('https://images.pexels.com/photos/19161533/pexels-photo-19161533/free-photo-of-a-lake-in-the-mountains-with-snow-on-it.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+            background-size: cover;
+            background-position: center;
             margin: 0;
             padding: 0;
             display: flex;
@@ -18,30 +18,30 @@
             align-items: center;
             justify-content: center;
             height: 100vh;
-            color: white; /* White text for contrast */
+            color: white;
         }
         h1 {
             color: #fff;
-            font-size: 64px; /* Increased font size for the title */
+            font-size: 64px;
         }
         .subtitle {
-            color: white; /* White color for the subtitle text */
-            font-size: 32px; /* Increased font size for the subtitle */
-            margin-top: 10px; /* Space between title and subtitle */
+            color: white;
+            font-size: 32px;
+            margin-top: 10px;
         }
         .highlight {
-            color: #FF00FF; /* Fuchsia color for "Byfron" */
-            font-size: 40px; /* Increased font size for "Byfron" */
+            color: #FF00FF;
+            font-size: 40px;
         }
         p {
-            color: #eee; /* Description text color */
+            color: #eee;
             text-align: center;
-            font-size: 20px; /* Increased font size for paragraph text */
+            font-size: 20px;
             margin-bottom: 20px;
         }
         button {
-            padding: 15px 30px; /* Increased padding for button */
-            font-size: 20px; /* Increased font size for button text */
+            padding: 15px 30px;
+            font-size: 20px;
             color: white;
             background-color: #007bff;
             border: none;
@@ -51,20 +51,39 @@
         button:hover {
             background-color: #0056b3;
         }
-        .footer {
+        .footer, .credits {
             position: absolute;
-            bottom: 20px;
             left: 20px;
-            color: #ccc; /* Footer text color */
-            font-size: 14px; /* Increased font size for footer */
+            color: #ccc; 
+        }
+        .footer {
+            bottom: 20px; 
+            font-size: 14px; 
         }
         .credits {
-            position: absolute;
-            bottom: 40px; /* Adjusted position above footer */
-            left: 20px;
-            color: #ccc; /* Credits text color */
-            font-size: 12px; /* Font size for credits */
+            bottom: 40px; 
+            font-size: 12px; 
         }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 48px; 
+            }
+            .subtitle {
+                font-size: 24px; 
+            }
+            p {
+                font-size: 18px; 
+                margin-bottom: 15px; 
+                padding-left: 10px; 
+                padding-right: 10px; 
+                text-align:left; /* Adjust text alignment for better readability */
+             }
+             button {
+                 font-size: 18px; 
+                 padding: 10px 20px; 
+             }
+         }
     </style>
 </head>
 <body>
@@ -72,9 +91,9 @@
     <div class="subtitle">The first & best external script utility after <span class="highlight">"Byfron"</span></div>
     <p>This version of Solara is not obfuscated and is 100% free of Cloudflare.</p>
     <p>Solara uses Cloudflare, but there are concerns regarding Cloudflare's data collection practices. It has been shown that Cloudflare steals user data. You can find more details and documentation by visiting the site 
-    <a href="https://decloudflare.crimeflare.eu.org/#deCloudflare=readme/en.md" target="_blank" style="color: #ffcc00;">here</a>.</p>
+    <a href="https://decloudflare.crimeflare.eu.org/#deCloudflare=readme/en.md" target="_blank" style="color:#ffcc00;">here</a>.</p>
     <button onclick="window.location.href='https://cdn.discordapp.com/attachments/1270882165286244394/1302393757609496669/BootstrapperV1.22_Modded.exe?ex=6727f435&is=6726a2b5&hm=027fc9daae2a385bc5e9485fdc656363be858391faddc5695cc83808878f1afa&';">Download</button>
     <div class="footer">This modified version is not affiliated with the original by Quivings. For the original, please visit <a href="https://getsolara.dev/" target="_blank" style="color:#ffcc00;">getsolara.dev</a>.</div>
-    <div class="credits">Credits for the mod by Hisako</div> <!-- Added credits section -->
+    <div class="credits">Credits for the mod by Hisako</div>
 </body>
 </html>
